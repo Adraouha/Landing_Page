@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: white;
+  color: #160b0b;
+}
+img {
+  border-radius: 50px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #3882F6;
+}
+.special {
+  color: #3882F6;
+  font-style: normal;
+}
+
+h1 {
+  padding-bottom: 15px;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+
+}
+
+button{
+ font-size: 18px;
+ background-color:#3882F6;
+ border: 1px solid white;
+ border-radius: 3px;
+ color: #F9FAF8;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+button:hover{
+  font-size: 18px;
+  background-color:#f63838;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: #F9FAF8;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+ .headertitle {
+  font-size: 48px;
+
+ }
+.banner {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+ 
+  justify-content:space-around;
+  align-items:center;
+
+}
+.banner_text {
+  font-size: 18px;
+  color: #F9FAF8;
+  margin-bottom: 15px;
+}
+.image {
+  width: 100%;
+}
+.image:hover {
+  opacity: 0.7;
+}
+.rss_odinProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.rssbox {
+  color: #e4b361;
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px ;
+  font-size: 14px;
+  width: 100px;
+  text-align: center;
+
+}
+.rssbox:hover {
+  color: #e4b361;
+  background-color: #E5E7EB;
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px ;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 2px 2px 3882F6;
+}
+header {
+  background-color: #1F2937;
+  padding-bottom: 50px;
+
+}
+footer{
+  background-color: #1F2937;
+  padding: 20px;
+}
+.titlemain {
+  font-size: 48px;
+  font-weight: 900;
+}
+.Subjects {
+background-color:white;
+color: #1f2039;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.container {
+padding-left: 30px;
+padding-right: 30px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+gap: 5px;
+}
+
+.box{
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  margin: 15px ;
+
+}
+.quote{
+  background-color: #E5E7EB;
+  padding-top: 15px;
+  padding: 15px;
+  
+}
+.quote_text {
+  font-weight: 100;
+  font-size: 36px;
+  color: #1F2937;
+}
+.author{
+  text-align: end;
+}
+.action {
+  background-color: #fefeff;
+  padding: 30px;
+  
+}
+.next {
+background-color: #3882F6;
+color: #F9FAF8;
+margin: 1px;
+padding: 15px;
+padding-left: 30px;
+padding-right: 20px;
+border-radius: 8px;
+display: flex;
+justify-content:space-around;
+align-items: flex-end;
+}
+.nextbutton {
+  border: 2px solid;
+  box-shadow: 0.5px 1px 10px ;
+}
+.nextbutton:hover {
+  border: 2px solid #E5E7EB;;
+  box-shadow: 0.5px 10px 20px ;
+  color: #ffffff;
+  background-color:#f63838;
+  box-shadow: 0.5px 1px 10px rgb(59, 73, 226) ;
+}
+
+section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Copyright {
+  color: #E5E7EB;
+  font-size: 12px;
+  text-align: center;
+}
+
+.textmain {
+  color: #1F2937;
+  text-align: justify;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.imgcarrousel {
+  width: 100%;
+}
+
+.titlemain1  {
+  font-size: 48px;
+  font-weight:900;
+  color: #e4b361;
+}
+.hassanadraou {
+  position: absolute;
+  right: 0px;
+  width: 150px;
+}
+.adraou {
+  color: #e4b361;
+}
